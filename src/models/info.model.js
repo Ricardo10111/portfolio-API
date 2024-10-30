@@ -20,6 +20,7 @@ const infoSchema = new mongoose.Schema({
   },
   phoneNumber: {
     type: String,
+    value: '',
     required: false,
     unique: false
   },
@@ -29,6 +30,7 @@ const infoSchema = new mongoose.Schema({
   },
   textArea: {
     type: String,
+    value: '',
     required: false
   }
 })
