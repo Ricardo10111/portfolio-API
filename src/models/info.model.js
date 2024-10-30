@@ -16,22 +16,20 @@ const infoSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true
+    unique: false
   },
   phoneNumber: {
     type: String,
     required: false,
-    unique: true
+    unique: false
   },
   service: {
     type: String,
-    required: true,
-    unique: false
+    required: true
   },
   textArea: {
     type: String,
-    required: true,
-    unique: false
+    required: true
   }
 })
 
