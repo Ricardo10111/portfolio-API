@@ -29,7 +29,7 @@ const infoSchema = new mongoose.Schema({
   },
   textArea: {
     type: String,
-    required: true
+    required: false
   }
 })
 
